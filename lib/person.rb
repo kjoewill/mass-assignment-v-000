@@ -8,5 +8,4 @@ class Person
       args.each { |k, v| e[k] = self.send("#{k}=", v) }
     end
   
-  
 end
